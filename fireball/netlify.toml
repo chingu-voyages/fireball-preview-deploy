@@ -1,11 +1,5 @@
-# Production context: all deploys from the Production branch
-# set in your site’s Branches settings in the UI will inherit
-# these settings.
-[context.production]
-  publish = "output/"
-  command = "make publish"
-
-# Deploy Preview context: all deploys generated from
-# a pull/merge request will inherit these settings.
-[context.deploy-preview]
-  publish = "dist/"
+// netlify.toml
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
