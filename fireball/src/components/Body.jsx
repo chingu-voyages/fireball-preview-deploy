@@ -1,8 +1,9 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import Map from "./Map";
+
 import Summary from "./summary/Summary";
 import Table from "./Table";
+import Map from "./map/Map";
 
 const Body = function Body() {
   return (
